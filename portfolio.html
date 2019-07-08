@@ -6,202 +6,238 @@
     <title>Dalena Bui| Design Portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
   </head>
   <body id="portfolio">
     <header>
 <!--nav section-->
-    <nav class="navbar">
-      <a class="logo" href="index.html">
-        <img src="images/dalenabui_logo.svg" alt="personal logo">
-      </a>
-      <ul>
-        <li>
-          <a href="portfolio.html">PORTFOLIO</a>
-        </li>
-        <li>
-          <a href="about.html">ABOUT</a>
-        </li>
-      </ul>
-    </nav>
+      <nav class="navbar">
+        <a class="logo" href="index.html">
+          <img src="images/dalenabui_logo.svg" alt="personal logo">
+        </a>
+        <ul>
+          <li>
+            <a href="portfolio.html" class="active">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="about.html">ABOUT</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <section>
-      <div class="personal photo">
+      <div class="banner center">
         <img src="images/clink_banner.svg" alt="clink banner">
       </div>
-      <div class="Link to case studies">
+      <nav class="banner-nav">
         <ul>
-          <li>Overview</li>
-          <li>Research</li>
-          <li>Branding </li>
-          <li>Execution</li>
-          <li>Learning</li>
-          <li>View Prototype</li>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#branding">Branding</a></li>
+          <li><a href="#execution">Execution</a></li>
+          <li><a href="#learning">Learning</a></li>
+          <li><a class="highlight" target="_blank" href="https://invis.io/C2R59UBM6R9">View Prototype</a></li>
         </ul>
-      </div>
+      </nav>
     </section>
-    <div class="case studies">
-        <p>A cloud storage service for people on the go which not only houses documentation, and files that are created outside of technology, but also inside technology allowing users to write notes, create an array of documentation (from word doc, spreadsheets), share their items and the ability to collaborate in a file and chat in real time. Take a look at the final clickable prototype!
+      <div class="case">
+        <p id="overview" class="subcontent content-text">A cloud storage service for people on the go which not only houses documentation, and files that are created outside of technology, but also inside technology allowing users to write notes, create an array of documentation (from word doc, spreadsheets), share their items and the ability to collaborate in a file and chat in real time. Take a look at the <a target="_blank" href="https://invis.io/C2R59UBM6R9">final clickable prototype!</a>
         </p>
         <h2>THE PROBLEM</h2>
-        <p>The world of Cloud Storage is full of competitors. From Google Drive, Dropbox  to Microsoft OneDrive, each digital platform and syncing service delivers its own variation of convenience and productivity to keep content stored and accessible at any time. Despite this variety, frustrations remain over organization: some tools don't consistently save files into the correct folders; some requires a desktop application; others don't provide controls over how content can be saved or displayed.
-       </p>
-       <h2>THE SOLUTION</h2>
-        <p>Introducing Clink, a Software-as-a- Service web application providing effortless content management to solve the problem of digital disorganisation. Clink combines the ease of uploading documents to creating documents, the flexibility formatting notes in desktop, and real time collaboration. Whether it’s personal creativity or professional work Clink is no longer bound to one place. Clink makes it easy to add anything in seconds, keep things organized, and access content quickly and efficiently.
+        <p class="subcontent content-text">The world of Cloud Storage is full of competitors. From Google Drive, Dropbox  to Microsoft OneDrive, each digital platform and syncing service delivers its own variation of convenience and productivity to keep content stored and accessible at any time. Despite this variety, frustrations remain over organization: some tools don't consistently save files into the correct folders; some requires a desktop application; others don't provide controls over how content can be saved or displayed.
         </p>
+        <div class="focus">
+          <h2>THE SOLUTION</h2>
+          <p class="subcontent content-text">Introducing Clink, a Software-as-a- Service web application providing effortless content management to solve the problem of digital disorganisation. Clink combines the ease of uploading documents to creating documents, the flexibility formatting notes in desktop, and real time collaboration. Whether it’s personal creativity or professional work Clink is no longer bound to one place. Clink makes it easy to add anything in seconds, keep things organized, and access content quickly and efficiently.
+            <br/>
+            <br/>
+            <br/>
+          </p>
+        </div>
       </div>
-        <div class="desktop_laptop">
-          <img src="images/clink_desktop_laptop.svg" alt="desktop_laptop">
-        </div>
-        <h2>THE RESEARCH</h2>
+      <div>
+        <img class="solution-image" src="images/clink_desktop_laptop.svg" alt="desktop_laptop">
+      </div>
+      <h2 id="research">THE RESEARCH</h2>
+      <div class="content-header">
         <h3>User Research</h3>
-            <p>I created a user research survey to get know my perspective users preferences and habits  regarding cloud storage usages, what could be done better with the cloud storage services that are currently available, and what new features would improve cloud storage experience. An online survey was conducted with 23 participants partaking the surveys.
-            <br>
-          </p>
-          <p>
-            I summarized the data and identified common user motivations, frustrations, and considerations.
-          </p>
-          <div class="graph">
-            <img src="images/graph_1.svg" alt="Graph">
-          </div>
-          <p>From these results, I was beginning to see that users wanted a productivity tool that could streamline the organizational decision-making process but still provide options for more specific categorization.
-          </P>
+      </div>
+      <p class="subcontent content-text">I created a <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSekLliQUPrZXogUiyyOQcsqTgjrG2MVgJ9k97vwPYelOkFqIA/viewform?usp=sf_link">user research survey</a> to get know my perspective users preferences and habits  regarding cloud storage usages, what could be done better with the cloud storage services that are currently available, and what new features would improve cloud storage experience. An online survey was conducted with 23 participants partaking the surveys.
+          <br/><br/>I summarized the data and identified common user motivations, frustrations, and considerations.
+      </p>
+      <div class="graph">
+        <img class="graph" src="images/graph_1.svg" alt="Graph">
+      </div>
+      <p class="subcontent content-text">From these results, I was beginning to see that users wanted a productivity tool that could streamline the organizational decision-making process but still provide options for more specific categorization.
+      </P>
+      <div class="content-header">
         <h3>Persona</h3>
-          <p>I interviewed survey respondents to dig deeper into their responses and clarify my understanding of the problem and my potential solution. From these interviews, I identified three major user groups, which I developed into three personas.
-          </p>
-          <div class="Eva Roel">
-            <img src="images/eva_roel.svg" alt="image of photographer">
-          </div>
-          <div class="Marcus Batchelor">
-            <img src="images/marcus_batchelor.svg" alt="image of engineer">
-          </div>
-          <div class="Naomi Lafluer">
-            <img src="images/naomi_lafluer.svg" alt="image of event planner">
-          </div>
-          <p>All well established in their own careers - each persona had pain points that were clear frustrations we could use and build upon with the inclusion of the client requests.
-          <br>
-          Frustrations included:
-          <br>
-          <ul>
-            <li>Storage limitations on file types and sizes.</li>
-            <li>Being able to open or edit a project that is not formatted for the site.</li>
-            <li>Lack of being able to store notes/files on the go</li>
-            <li>DIfficulty organizing content</li>
-            <li>Inability to track an view user permissions</li>
-            <li>Problem with tracking previous versions of the file</li>
-            <li>Lack of in-app/site communications while working on a project.</li>
-          </ul>
-          <p>These pain points of creation, organization, sharing, storing, saving and collaboration became our headings for navigation
-          </p>
-        <h3>Competitive Analysis</h3>
-          <p>Given the number of existing productivity services, I needed to take a closer look at potential competitors to identify how our product could provide the most value to our users. I focused my analysis on cloud storage heavyweights like Dropbox, OneDrive and Google Drive to perform a basic SWOT analysis. Since users' strongest desires were for better organization, examining the successes and faults of services built to house and handle vast quantities of data revealed insights and opportunities beyond just how to build a better interface for typing and storing files, notes and collaborative work.
-          </p>
-          <div class="google logo">
-            <img src="images/google_logo.svg" alt="google drige logo">
-          </div>
-          <div class="dropbox logo">
-            <img src="images/dropbox_logo.svg" alt="dropbox logo">
-          </div>
-          <div class="onedrive logo">
-            <img src="images/onedrive_logo.svg" alt="onedrive logo">
-          </div>
-        <h3>User Stories</h3>
-         <p>After compiling a lengthy list of tasks that users would want to accomplish with my product, I prioritized those essential for a minimum viable product (creating and upgrading accounts, adding and viewing content) from the nice-to-haves (sharing and favoriting content, adding and managing collaborators).
-         </p>
-         <div class="User stories">
-           <img src="images/user_stories.svg" alt="Image of User stories">
-         </div>
-        <h3>User Flows & Sitemap</h3>
-        <p>I converted the users stories into user flows to visualize how the user would accomplish those stories with my product. Separate flows demonstrate how new and returning users would be welcomed into the platform. A combined flow for tasks within a dashboard took several iterations as I mapped out the smoothest paths for adding content, searching for specific items, and managing accounts. To solidify our navigation structure and content hierarchy, I drew up a sitemap before diving into the design of the actual product
-        </p>
-        <div class="User Flow">
-          <img src="images/user_flow.svg" alt="Image of User Flow">
+      </div>
+      <p class="subcontent content-text">I interviewed survey respondents to dig deeper into their responses and clarify my understanding of the problem and my potential solution. From these interviews, I identified three major user groups, which I developed into three personas.
+      </p>
+      <div class="content">
+        <div class="personas-wrapper center">
+          <img src="images/eva_roel.svg" alt="image of photographer">
+          <img src="images/marcus_batchelor.svg" alt="image of engineer">
+          <img src="images/naomi_lafluer.svg" alt="image of event planner">
         </div>
-        <h2>BRANDING</h2>
-            <p>I began my brainstorm with a word association exercise surrounding the idea of valuable items in a safe space. This eventually lead me to brand concepts Clink, defined linking, connection, cloud storage. For Clink I started off with chain linking and final choose the cloud shape with ‘C’ which stands for ‘Clink’ which also represent the purpose of the platform being a cloud storage. The branding is simple and professional.
-            </p>
+      </div>
+      <p class="subcontent content-text">All well established in their own careers - each persona had pain points that were clear frustrations we could use and build upon with the inclusion of the client requests.
+        <br/>
+        Frustrations included:
+      </p>
+      <ul class="subcontent content-text">
+        <li>Storage limitations on file types and sizes.</li>
+        <li>Being able to open or edit a project that is not formatted for the site.</li>
+        <li>Lack of being able to store notes/files on the go</li>
+        <li>DIfficulty organizing content</li>
+        <li>Inability to track an view user permissions</li>
+        <li>Problem with tracking previous versions of the file</li>
+        <li>Lack of in-app/site communications while working on a project.</li>
+      </ul>
+      <p class="subcontent content-text">These pain points of creation, organization, sharing, storing, saving and collaboration became our headings for navigation
+      </p>
+      <div class="content-header">
+        <h3>Competitive Analysis</h3>
+      </div>
+      <p class="subcontent content-text">Given the number of existing productivity services, I needed to take a closer look at potential competitors to identify how our product could provide the most value to our users. I focused my analysis on cloud storage heavyweights like Dropbox, OneDrive and Google Drive to perform a basic <a target="_blank" href="https://docs.google.com/document/d/1wLj5a2ForPXX5Nka6Du0h6RrYQDk5eBY1THtd2uAsw4/edit?usp=sharing">SWOT analysis</a>. Since users' strongest desires were for better organization, examining the successes and faults of services built to house and handle vast quantities of data revealed insights and opportunities beyond just how to build a better interface for typing and storing files, notes and collaborative work.
+      </p>
+      <div class="subcontent">
+        <div class="content-container logo-group">
+          <img class="logo-google" src="images/google_logo_2.svg" alt="google drige logo">
+          <img class="logo-dropbox" src="images/dropbox_logo_2.svg" alt="dropbox logo">
+          <img class="logo-onedrive" src="images/onedrive_logo_2.svg" alt="onedrive logo">
+        </div>
+      </div>
+
+        <div class="content-header">
+          <h3>User Stories</h3>
+        </div>
+         <p class="subcontent content-text">After compiling a lengthy list of tasks that users would want to accomplish with my product, I prioritized those essential for a minimum viable product (creating and upgrading accounts, adding and viewing content) from the nice-to-haves (sharing and favoriting content, adding and managing collaborators).
+         </p>
+         <div class="User-stories">
+           <img class="stories" src="images/user_stories.svg" alt="Image of User stories">
+         </div>
+        <div class="content-header">
+          <h3>User Flows & Sitemap</h3>
+        </div>
+        <p class="subcontent content-text">I converted the users stories into user flows to visualize how the user would accomplish those stories with my product. Separate flows demonstrate how new and returning users would be welcomed into the platform. A combined flow for tasks within a dashboard took several iterations as I mapped out the smoothest paths for adding content, searching for specific items, and managing accounts. To solidify our navigation structure and content hierarchy, I drew up a sitemap before diving into the design of the actual product
+        </p>
+        <div class="content">
+          <img class="center" src="images/user_flow.svg" alt="Image of User Flow">
+        </div>
+        <div class="focus">
+          <h2 id="branding">BRANDING</h2>
+          <p class="subcontent content-text">I began my brainstorm with a word association exercise surrounding the idea of valuable items in a safe space. This eventually lead me to brand concepts Clink, defined linking, connection, cloud storage. For Clink I started off with chain linking and final choose the cloud shape with ‘C’ which stands for ‘Clink’ which also represent the purpose of the platform being a cloud storage. The branding is simple and professional.
+          </p>
+        </div>
+        <div class="content-header">
           <h3>Logo</h3>
-          <div class="Clink sketches">
-            <img src="images/clink_sketches.svg" alt="image of Clink sketches">
+        </div>
+        <div class="subcontent logo">
+          <div class="content-container">
+            <div class="col">
+              <img src="images/clink_sketches.svg" alt="image of Clink sketches">
+            </div>
+            <div class="col">
+              <img src="images/clink_logo.svg" alt="image of Clink Logo 2">
+            </div>
           </div>
-          <div class="Clink logo 2">
-            <img src="images/clink_logo.svg" alt="image of Clink Logo 2">
-          </div>
+        </div>
+        <div class="content-header">
           <h3>Typography</h3>
-          <p>A preference test was done for the there was a clear A winner with 80% selected. They feel that the typeface Nunito goes well with the logo icon, the consistency looks from the ‘cloud shape C’ flows perfectly with the Logo.
+        </div>
+        <p class="subcontent content-text">A preference test was done for the there was a clear A winner with 80% selected. They feel that the typeface Nunito goes well with the logo icon, the consistency looks from the ‘cloud shape C’ flows perfectly with the Logo.
+        </p>
+        <div class="subcontent">
+          <img class="center" src="images/Typeface.svg" alt="image of Typeface">
+        </div>
+        <div class="focus">
+          <h2 id="execution">EXECUTION</h2>
+          <p class="subcontent content-text">I transformed barebones sketches into a clickable prototype through rounds of exploring visual design, conducting usability testing, and iterating on user feedback.
           </p>
-          <div class="Typeface">
-            <img src="images/Typeface.svg" alt="image of Typeface">
-          </div>
-          <h2>EXECUTION</h2>
-          <p>I transformed barebones sketches into a clickable prototype through rounds of exploring visual design, conducting usability testing, and iterating on user feedback.
-          </p>
-          <div class="wireframe sketches">
-            <img src="images/wireframe_sketches.svg" alt="image of wireframe sketches">
-          </div>
-          <p>To be able to share my mockups with a remote design partner more efficiently, I created several variations for the landing page and layouts for additional content pages, focused on iterating quickly and communicating ideas. Once the partner was on board with selected mockups, I moved into the next phase of concept development.
-          </p>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+        </div>
+        <div class="subcontent">
+          <img class="wireframe-image center" src="images/wireframe_sketches.svg" alt="image of wireframe sketches">
+        </div>
+        <p class="subcontent content-text">To be able to share my mockups with a remote design partner more efficiently, I created several variations for the landing page and layouts for additional content pages, focused on iterating quickly and communicating ideas. Once the partner was on board with selected mockups, I moved into the next phase of concept development.
+        </p>
+        <div class="content-header">
           <h3>Low-Fidelity Wireframes</h3>
-          <p>Using my sitemap and a list of project requirements as reference points, I built wireframes in Figma for our MVP. I then wanted to test if the landing page design adequately conveyed our value proposition, along with how users would accomplish the primary tasks identified in our user flows. I set up 5-minute tests with random participants through usabilityhub.com and recruited survey respondents for in-person usability tests and remote testing. In-person participants were guided through an InVision prototype using a test script.
-          </p>
-          <div class="low fi wireframe">
-            <img src="images/low-fi_wireframe.svg" alt="image of low fi wireframe">
-          </div>
-          <p>All three user was able to identify from the landing page that it is some sort of data storage platform.
+        </div>
+        <p class="subcontent content-text">Using my sitemap and a list of project requirements as reference points, I built wireframes in Figma for our MVP. I then wanted to test if the landing page design adequately conveyed our value proposition, along with how users would accomplish the primary tasks identified in our user flows. I set up 5-minute tests with random participants through usabilityhub.com and recruited survey respondents for in-person usability tests and remote testing. In-person participants were guided through an InVision prototype using a test script.
+        </p>
+        <div class="content">
+          <img class="center" src="images/low-fi_wireframe.svg" alt="image of low fi wireframe">
+        </div>
+          <p class="subcontent content-text">All three user was able to identify from the landing page that it is some sort of data storage platform.
             The three user feedback was consistent in the testing of "adding a content" that navigating to the icon was a bit hard - it would be easier if icon appear on dashboard if the option of right click is not available. As well as having another pop windows or a way to return to dashboard.
             All these feedback are very valid and I will be taking this into consideration when designing for the final MVP.
           </p>
+        <div class="content-header">
           <h3>High-Fidelity Prototype</h3>
-          <div class="Clink Homepage">
+        </div>
+        <div class="prototype content">
+          <div class="col">
             <img src="images/clink_homepage.svg" alt="image of Clink Homepage">
           </div>
-          <div class="lfolder P1">
+          <div class="col">
             <img src="images/folder_P1.svg" alt="image of folder P1">
-          </div>
-          <div class="Clink Dashboard">
             <img src="images/clink_dashboard.svg" alt="image of Clink Dashboard">
           </div>
-          <div class="folder P2">
+          <div class="col">
             <img src="images/folder_P2.svg" alt="image of folder P2">
-          </div>
-          <div class="make a comment">
             <img src="images/make_a_comment.svg" alt="image of make a comment">
           </div>
-          <p>As I transformed my wireframes into a high-fidelity prototype, I put my iterations to the test on UsabilityHub through a Five Second Test to gather first impressions of images and page elements, a Navigation Test to gauge navigability, and a Preference Test to validate button placement. I also conducted a second round of usability testing. Synthesizing the feedback from these tests helped to ensure that each revision to the design was borne out of improving usability and utility as opposed to pure aesthetics.
-          Take a look at the final clickable prototype!
-          </p>
-          <h2>KEY LEARNINGS</h2>
-          <p>Creating this web application challenged me to devise an intuitive solution to the organizational frustrations of users regarding existing cloud storage platform, within the limitations of specific business requirements. I also learned the importance of in-person usability testing, along with the necessity of repeated practice, to be able to guide easily-distracted users and obtain feedback on issues critical to a product's viability and feasibility while still leaving enough room for exploratory tangents and unexpected insights.
-          <br>
-          <p>With more time, I would build out additional screens to test our search and share functionalities and collaborative features in order to develop Clink’s capabilities for social networking and more advanced corporate needs.
-        </p>
-      <div class="back to top bar">
-        <ul>
-          <li>previous Project</li>
-          <li>Back to Top</li>
-          <li>Next Project</li>
-        </ul>
-      </div>
-    <div class="get in touch">
-            <h4>I'm always looking forward to my next adventure in design !
-              <br>Want to chat?
-            </h4>
-              <input type="button" value="Get in touch">
-      </div>
-      <footer>
-        <div class="footercontent">
-          <h5 class="copyright"> &copy; 2019 Dalena Bui | Design & Developed by Dalena Bui</h5>
         </div>
-        <ul class="footerlinks">
-          <li>
-            <a href="portfolio.html">Contact</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/dalena-bui-600742174/">Linkedin</a>
-          </li>
-          <li>
-            <a href="https://github.com/dalenabui">GitHub</a>
-          </li>
-        </ul>
+        <p class="subcontent content-text">As I transformed my wireframes into a high-fidelity prototype, I put my iterations to the test on UsabilityHub through a Five Second Test to gather first impressions of images and page elements, a Navigation Test to gauge navigability, and a Preference Test to validate button placement. I also conducted a second round of usability testing. Synthesizing the feedback from these tests helped to ensure that each revision to the design was borne out of improving usability and utility as opposed to pure aesthetics.
+        Take a look at the <a target="_blank" href="https://invis.io/C2R59UBM6R9">final clickable prototype!</a>
+        </p>
+        <div class="focus shadow">
+          <h2 id="learning">KEY LEARNINGS</h2>
+          <p class="subcontent content-text">Creating this web application challenged me to devise an intuitive solution to the organizational frustrations of users regarding existing cloud storage platform, within the limitations of specific business requirements. I also learned the importance of in-person usability testing, along with the necessity of repeated practice, to be able to guide easily-distracted users and obtain feedback on issues critical to a product's viability and feasibility while still leaving enough room for exploratory tangents and unexpected insights.
+          <br>
+          <br/>
+          With more time, I would build out additional screens to test our search and share functionalities and collaborative features in order to develop Clink’s capabilities for social networking and more advanced corporate needs.
+          </p>
+        </div>
+      <footer>
+        <div class="footer-nav content">
+          <ul>
+            <li class="prev-nav"><a href="#">&lt;--- Previous Project</a></li>
+            <li class="top-nav"><a href="javascript:document.body.scrollTop = document.documentElement.scrollTop = 0;">Back to Top</a></li>
+            <li class="next-nav"><a href="#">Next Project ---&gt;</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+            <h4>I'm always looking forward to my next adventure in design!<h4>
+            <h4>Want to chat?</h4>
+            <input class="big-button" type="button" value="Get in touch" onclick="window.location.href='mailto:tdalenabui@gmail.com';">
+        </div>
+        <div class="footer-tail content">
+          <span class="copyright">
+            &copy; 2019 Dalena Bui | Design & Developed by Dalena Bui
+          </span>
+          <span class="links">
+            <ul>
+              <li>
+                <a href="mailto:tdalenabui@gmail.com">Contact</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/dalena-bui-600742174/">Linkedin</a>
+              </li>
+              <li>
+                <a href="https://github.com/dalenabui">GitHub</a>
+              </li>
+            </ul>
+          </span>
+          <div>
       </footer>
   </body>
 </html>

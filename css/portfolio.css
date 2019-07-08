@@ -1,0 +1,164 @@
+#portfolio a {
+  text-decoration: none;
+  color: #324368;
+}
+
+#portfolio h2 {
+  text-align: center;
+  color: #EFD82A !important;
+  font-weight: 600;
+  font-size: 36px;
+  margin: 10px 0px 10px 0px;
+}
+
+#portfolio h3 {
+  color: #324368 !important;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 10px 0px 10px 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding: 30px 0px 10px 0px;
+  text-align: left;
+}
+
+.case {
+  margin-top: 30px;
+}
+
+.content-header {
+  width: 996px;
+  margin: auto;
+}
+
+.content-text {
+  padding: 20px 0px 30px 0px;
+  color: #324368;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 140%;
+}
+
+.content-container {
+  width: 80%;
+  margin: auto;
+}
+
+ul.subcontent {
+  width: 55%;
+}
+ul.subcontent > li {
+  text-indent: -5px;
+}
+ul.subcontent > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+.subcontent a {
+  text-decoration: underline !important;
+  font-weight: 500;
+}
+
+.banner {
+  width: 90%;
+  height: 517px;
+}
+
+.banner-nav {
+  height: 90px;
+  font-size: 24px;
+  font-weight: 300;
+  padding-left: 120px;
+  background-color: #F2F2F2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner-nav li {
+  margin-top: 32px;
+  width: 15%;
+}
+
+.banner-nav .highlight {
+  color: #EFD82A !important;
+  font-weight: 700;
+}
+
+.focus {
+  background-color: #F2F2F2;
+  margin-top: 40px;
+  padding: 20px 0px 20px 0px;
+}
+
+.solution-image {
+  margin: auto;
+  width: 55%;
+  display: inherit;
+  margin-top: -50px;
+  margin-bottom: 80px;
+}
+
+.graph {
+  margin: auto;
+  width: 74%;
+  display: inherit;
+  margin-bottom: -20px;
+}
+
+.stories{
+  margin: auto;
+  width: 41%;
+  display: inherit;
+  margin-top: 50px;
+}
+
+.personas-wrapper {
+  display: inherit;
+  margin: auto;
+  padding: 40px 0px 40px  0px;
+}
+
+.personas-wrapper img {
+  display: inline-block;
+  width: 33%;
+}
+
+.logo-group {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.logo-group .logo-onedrive {
+  float: right;
+}
+
+.logo-group .logo-google {
+  float: left;
+}
+
+/* .logo-group .logo-dropbox {
+  margin: 0px 30px 0px 30px;
+} */
+
+.wireframe-image {
+  margin-top: -90px;
+  margin-bottom: 20px;
+}
+
+.prototype .col {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.prototype img {
+  margin-bottom: 10px;
+}
+
+.logo .col {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,123 @@
+#about h2 {
+  padding: 50px 0px 50px 0px;
+}
+
+#about h6 {
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color: #324368;
+}
+
+.col-small {
+  display: inline-block;
+  width: 370px;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.personalphoto img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bio {
+  background-color: #B6E1DE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: -8px;
+  padding: 30px 0px 60px 0px;
+}
+
+.abouttellyourstory p {
+  width: 998.16px;
+  height: 203px;
+  left: 222px;
+  top: 940px;
+}
+
+.paperplane {
+  position: absolute;
+  left: 949px;
+  right: 17px;
+  margin-top: -150px;
+}
+
+.yellowcrane {
+  position: absolute;
+  left: 24px;
+  right: 1195px;
+  margin-top: 8px;
+}
+
+.title h3 {
+  position: absolute;
+  width: 300px;
+  height: 43px;
+  left: 585px;
+  top: 1075px;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  color: #324368;
+}
+
+.littleaboutme {
+  padding-bottom: 120px;
+}
+
+.littleaboutme img {
+  position: relative;
+}
+
+.tealcrane {
+  position: absolute;
+  left: 1151px;
+  right: 34px;
+  margin-top: -260px;
+}
+
+.worksummary {
+  background-color: #F2F2F2;
+  padding: 50px 0px 50px 0px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.worksummary h5 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 140%;
+  color: #324368;
+  margin-bottom: 30px;
+}
+
+.worksummary p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 177%;
+  color: #324368;
+}
+
+.summary p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 177%;
+  color: #324368;
+}
+
+.tools {
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.skillsabilities {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}

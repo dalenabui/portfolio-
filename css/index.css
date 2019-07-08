@@ -1,0 +1,96 @@
+.project {
+  padding: 150px 120px 50px 120px;
+  display: inline-block;
+}
+
+.project h3 {
+  text-align: left;
+}
+
+.project h4 {
+  text-align: left;
+}
+
+.project .project-image {
+  display: inline-block;
+  width: 490px;
+  margin-right: 80px;
+}
+
+.project .project-info {
+  display: inline-block;
+  vertical-align: top;
+  width: 520px;
+  padding: 20px;
+}
+
+.project .project-info p {
+  margin-top: 20px;
+}
+
+.project .viewproject p  {
+  margin-top: 80px;
+  position: relative;
+}
+
+.project .viewproject a  {
+  color: #EFD82A
+}
+
+.about_me {
+  background-color: #1F8C95;
+  width: 1440px;
+  height: 516px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 140%;
+}
+
+.about_me .intro {
+  width: 692px;
+  margin: 150px 0px 0px 120px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about_me .getintouch {
+  width: 450px;
+  margin: 150px 0px 0px 120px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 32px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.about_me .getintouch button {
+  margin-top: 20px;
+}
+
+.paperplanehomepage {
+  margin: -185px 0px 0px 690px;
+}
+
+.contacthomepage p {
+  width: 406px;
+  padding-top: 121px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 140%;
+  width: 406px;
+  height: 144px;
+  text-align: center;
+}
+
+.contactinfo {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  color: #324368;
+  display: block;
+  padding: 48px 125px 48px 109px;
+}
